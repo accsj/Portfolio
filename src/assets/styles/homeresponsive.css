@@ -1,0 +1,81 @@
+@media (max-width:1200px) {
+    .main-content {
+        padding-left: 2rem;
+    }
+    .left-content h3 {
+        font-size: 3rem !important;
+    }
+    .left-content h1 {
+        font-size: 5rem !important;
+    }
+    .left-content p {
+        font-size: 1.5rem !important;
+    }
+    .social-media a {
+        font-size: 4rem !important;
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .button-cv {
+        font-size: 1.5rem !important;
+    }
+    .footer {
+        padding: 1.3rem 3% !important;
+        
+    }
+    .text-footer > p{
+        font-size: 1.3rem !important;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        margin-left: 4rem ;   
+    }
+    .left-content h3 {
+        font-size: 2rem;
+    }
+    .left-content h1 {
+        font-size: 5rem;
+    }
+    .left-content p {
+        font-size: 1.5rem;
+    }
+    .media > .social-media {
+        font-size: 1.6rem;
+    }
+    .button-cv {
+        font-size: 1rem;
+    }
+    .right-content {
+        margin-left: 4rem;
+    }
+    .developer {
+        width: 70vw !important;
+        padding-right: 4rem !important;
+    }
+}
+
+@media (max-width:430px) {
+    .main-content {
+        margin-left: 3.5rem;
+    }
+    .developer {
+        width: 90vw !important;
+    }   
+}
+
+
+/* Animações */
+
+
+@keyframes flips {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

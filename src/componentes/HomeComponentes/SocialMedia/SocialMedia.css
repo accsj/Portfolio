@@ -1,0 +1,32 @@
+.social-media {
+    display: flex;
+    transition: .5s ease;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border:.1rem solid var(--main-color);
+    border-radius:50%;
+    font-size: 2rem;
+    color:var(--main-color);
+    margin: 1rem 1rem 1.2rem 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background:var(--main-color);
+    color:var(--second-bg-color);
+    box-shadow:0 0 1rem var(--main-color)
+}
+
+.social-media i:hover {
+    animation: flips 2s linear infinite;
+    transform-style: preserve-3d;
+}

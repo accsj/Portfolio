@@ -1,0 +1,45 @@
+
+.main-cards .cards-contact {
+    color: var(--text-color);
+    flex: 0.5 0.5 22rem;
+    padding: 1rem 0.5rem 0.5rem;
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+    cursor: default;
+    font-size: 8rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    margin-top: 1rem;
+}
+
+.main-cards .cards-contact:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.cards-contact:hover i {
+    animation: flips 2s linear infinite;
+    transform-style: preserve-3d;
+}
+
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#linkedin {
+    color: #0e76a8;
+}
+
+#whatsapp {
+    background: #00cf4d;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

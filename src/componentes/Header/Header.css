@@ -1,0 +1,171 @@
+.cabecalho {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 1rem 3%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+}
+
+.portfolio {
+    font-size:1.5rem;
+    margin-left: 2rem;
+    color: red;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.tabsright {
+
+    top: 100%;
+    left: 0;
+    z-index: 100;
+}
+
+
+.tabsright.show {
+    display: block;
+}
+
+.tabsright a {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+    margin: 1.5rem;
+}
+
+.tabsright a:hover {
+    color: red;
+}
+
+.tabsright a.active{
+    color: red;
+}
+
+.navbar {
+    width: 30px;
+    height: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: var(--text-color);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+#navbar.change .bar {
+    background-color: red;
+}
+
+#navbar.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+#navbar.change #bar2 {
+    opacity: 0;
+}
+
+#navbar.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+span {
+    color: var(--main-color)
+}
+
+
+/* Responsividade main/menu*/
+
+@media (max-width:1200px) {
+    html {
+        font-size:55%
+    }
+    .portfolio {
+        font-size: 3rem;
+        margin-left: 3.5rem;
+    }
+    .tabsright a {
+        font-size: 1.9rem;
+    }
+    .footer {
+        padding: 2rem 3%;
+        
+    }
+    .text-footer > p{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tabsright {
+        display: none;
+        position: absolute;
+        justify-content: center;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    }
+    .tabsright a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    .navbar {
+        display: block;
+        margin-right: 1rem;
+    }
+    .showMenu {
+        display: block;
+    }
+}
+
+@media (max-width:991px) {
+    section {
+        padding:10rem 0 2rem
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%
+    }
+}
+
+@media (max-width:365px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+

@@ -1,0 +1,87 @@
+@media (max-width: 1400px) {
+    .buttonabout {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .buttonabout {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .projects > h1 {
+        padding-top: 18rem !important;
+        font-size: 4rem !important;
+    }
+    .cards-container {
+        font-size: 5rem !important;
+    }
+    .cards > h3 {
+        font-size: 3rem !important;
+    }
+    .cards > p {
+        font-size: 2rem !important;
+    }
+    #logohtml {
+        font-size: 4rem;
+    }
+    #logocss {
+        font-size: 4rem;
+    }
+    #logojs {
+        font-size: 4rem;
+    }
+    .buttonabout {
+        
+        font-size: 2rem !important; 
+    }
+    .footer {
+        padding: 1.3rem 3% !important;
+        
+    }
+    .text-footer > p{
+        font-size: 1.3rem !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .projects > h1{
+        font-size: 4rem !important;
+    }
+    .project {
+        padding-top: 0;
+    }
+    .cards-container {
+        font-size: 5rem;
+        flex-direction: column;
+    }
+    .cardsite {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 0;
+    }
+    .cards > i {
+        font-size: 5.5rem !important;
+    }
+    .cards > h3 {
+        font-size: 3rem !important;
+    }
+    .cards > p {
+        font-size: 2rem !important;
+    }
+    .buttonabout {
+        font-size: 2.5rem !important;
+    }
+    section {
+        padding:10rem 0 2rem !important;
+    }
+    .footer {
+        padding: 2rem 3% !important;
+    }
+    .footer p {
+        font-size: 1.3rem !important;
+    }
+}

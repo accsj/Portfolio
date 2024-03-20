@@ -1,0 +1,100 @@
+.projects {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.projects > h1 {
+    font-size: 2.7rem;
+    padding-top: 7rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 7rem;
+}
+
+.cards-container .cards {
+    flex: 1 1 30rem;
+    padding: 3rem 2rem 4rem;
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+    cursor: default;
+}
+
+.cards-container, .cards:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.cardsite {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.cards > i{
+    font-size: 3.5rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.cards h3 {
+    font-size: 2rem;
+}
+
+.cards p {
+    font-size: 1rem;
+    margin: 1rem 0 1rem;
+}
+
+.cards > p > i{
+    font-size: 2.6rem;
+}
+
+#logopython {
+    background:linear-gradient(-120deg, #ffde57, #4584b6, #646464);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logohtml {
+    color: orangered;
+}
+
+#logojs {
+    color: yellow;
+}
+
+#logocss {
+    color: rgb(0, 166, 255);
+}
+
+#logoreact {
+    color: rgb(97, 219, 251);
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#logoreact:after{
+    transform:rotate(-57deg);
+}
+
+#logoreact:before{
+    transform:rotate(57deg);
+}
+
+@keyframes rotate{
+
+    100%{
+        transform:rotate(360deg);
+    }
+}
+

@@ -1,0 +1,47 @@
+.section-left-about {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 2rem;
+}
+
+.section-right-about {
+    justify-content: center;
+    text-align: left;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section-right-about > h2 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.section-right-about > h3 {
+    font-size: 1.7rem;
+}
+
+.typewrite-about {
+    position: relative;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.typewrite-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--second-bg-color);
+    border-left: 2px solid var(--main-color);
+    animation: animate 4s steps(12) infinite;
+}
+
+.section-right-about > p {
+    font-size: 0.92rem;
+    margin: 1rem 0 1rem;
+    margin-bottom: 1.2rem;
+}

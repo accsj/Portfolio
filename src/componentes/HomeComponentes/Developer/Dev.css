@@ -1,0 +1,22 @@
+.developer {
+    width: 30vw;
+    margin-right: 5rem;
+    padding-top: 10%;
+    border-radius: 100%;
+    animation: developer_floatimage 5s ease-in-out infinite;
+}
+
+
+/* Animações */
+
+@keyframes developer_floatimage {
+    0% {
+        transform:translateY(0)
+    }
+    50% {
+        transform:translateY(-2rem)
+    }
+    to {
+        transform:translateY(0)
+    }
+}
