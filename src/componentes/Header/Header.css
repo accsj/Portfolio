@@ -121,6 +121,30 @@ span {
     }
 }
 
+@media (max-width: 950px) {
+    .navbar {
+        margin-right: 2rem !important;
+    }
+}
+
+@media (max-width: 890px) {
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 812px) {
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
 @media (max-width: 768px) {
     .tabsright {
         display: none;

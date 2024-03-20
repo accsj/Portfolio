@@ -1,5 +1,4 @@
 import '../Projetos/Projetos.css';
-import '../../../assets/styles/projectresponsive.css';
 import ButtonGit from '../ButtonGIT/ButtonGit';
 
 

@@ -13,3 +13,32 @@
     padding: 0.3rem 2rem !important; 
     flex-basis: 100% !important;
 }
+
+
+
+/* Responsividade */
+
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 1.3rem 3% !important;
+        
+    }
+    .text-footer > p{
+        font-size: 1.3rem !important;
+    }
+}
+
+
+@media (max-width: 383px) {
+    .footer p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer p {
+        font-size: 1rem !important;
+    }
+}
+

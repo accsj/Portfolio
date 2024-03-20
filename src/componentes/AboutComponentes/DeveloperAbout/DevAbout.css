@@ -4,4 +4,36 @@
     animation: developer_floatimage 5s ease-in-out infinite;
 }
 
+/* Responsividade */
 
+@media (max-width: 1200px) {
+    .developer-about {
+        margin-right: 8rem !important;
+        margin-bottom: 13rem !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .developer-about {
+        width:37vw !important;
+        padding-top: 16rem !important;
+        margin-right: 9rem !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .developer-about {
+        width:45vw !important;
+        padding-top: 8rem !important;
+        margin-right: 8rem !important;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .developer-about {
+        width: 50vw !important;
+        margin-bottom: 0;
+    }
+}

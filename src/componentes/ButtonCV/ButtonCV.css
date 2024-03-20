@@ -24,3 +24,23 @@
     box-shadow:0 0 1rem var(--main-color);
     box-shadow: none;
 }
+
+
+/* Responsividade */
+
+@media (max-width:1200px) {
+    .button {
+        display: flex !important;
+        justify-content: left !important;
+        align-items: left !important;
+    }
+    .button-cv {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-cv {
+        font-size: 1rem;
+    }
+}

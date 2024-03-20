@@ -1,9 +1,5 @@
-import './assets/styles/main.css';
-import './assets/styles/homeresponsive.css';
-import './assets/styles/projectresponsive.css';
-import './assets/styles/aboutresponsive.css';
-import './assets/styles/contactresponsive.css';
 import { Outlet } from 'react-router-dom';
+import './assets/styles/main.css';
 
 function App() {
   return (

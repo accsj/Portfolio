@@ -30,3 +30,19 @@
     animation: flips 2s linear infinite;
     transform-style: preserve-3d;
 }
+
+/* Responsividade */
+
+@media (max-width:1200px) {
+    .social-media a {
+        font-size: 4rem !important;
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .media > .social-media {
+        font-size: 1.6rem;
+    }
+}

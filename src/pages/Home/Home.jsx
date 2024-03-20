@@ -1,6 +1,6 @@
 import React from 'react';
-import SectionLeft from '../../componentes/HomeComponentes/SectionLeft/SectionLeft';
 import Header from '../../componentes/Header/Header';
+import SectionLeft from '../../componentes/HomeComponentes/SectionLeft/SectionLeft';
 import DeveloperImage from '../../componentes/HomeComponentes/Developer/Dev';
 import Footer from '../../componentes/Footer/Footer';
 

@@ -57,6 +57,51 @@ body {
 }
 
 
+    /* Animações */
+
+/* Logo React */
+@keyframes rotate{
+
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+/* Efeito 360° de logos */
+@keyframes flips {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Flutação da imagem do Dev */
+@keyframes developer_floatimage {
+    0% {
+        transform:translateY(0)
+    }
+    50% {
+        transform:translateY(-2rem)
+    }
+    to {
+        transform:translateY(0)
+    }
+}
+
+/* Animação Typewrite */
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+    
+}
+
+
 
 
 

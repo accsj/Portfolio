@@ -20,3 +20,17 @@
     box-shadow:0 0 1rem var(--main-color);
     box-shadow: none;
 }
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+    .buttonsubmit {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width:768px) {
+    .buttonsubmit {
+        font-size: 2rem !important;
+    }
+}

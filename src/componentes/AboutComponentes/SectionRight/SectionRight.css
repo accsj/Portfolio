@@ -45,3 +45,71 @@
     margin: 1rem 0 1rem;
     margin-bottom: 1.2rem;
 }
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+    .section-right-about {
+        padding-top: 7rem;
+    }
+    .section-right-about h3 {
+        font-size: 2rem !important;
+    }
+    .section-right-about p {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-content-about { 
+        flex-direction: column;
+    }
+    .section-right-about {
+        padding-top: 0 !important;
+        text-align: center !important;
+        margin-left: 4rem !important;
+        padding-bottom: 0 !important;
+    }
+    .section-right-about > h2 {
+        font-size: 4rem !important;
+    }
+    .section-right-about > h3 {
+        font-size: 2.8rem !important;
+        white-space: nowrap !important;
+        padding-bottom: 1.2rem !important;
+    }
+    .section-right-about > p {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content-about {
+        flex-direction: column;
+    }
+    .section-right-about {
+        text-align: center;
+        margin-left: 4rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .section-right-about > h2 {
+        font-size: 4rem;
+    }
+    .section-right-about > h3 {
+        font-size: 2.8rem;
+        white-space: nowrap;
+    }
+    .section-right-about > p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-right-about {
+        margin-left: 4rem;
+    }
+    .section-right-about > p {
+        font-size: 2rem;
+    }
+}
