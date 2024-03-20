@@ -1,7 +1,4 @@
 @media (max-width:1200px) {
-    .main-content {
-        padding-left: 2rem;
-    }
     .left-content h3 {
         font-size: 3rem !important;
     }
@@ -29,15 +26,60 @@
         
     }
     .text-footer > p{
-        font-size: 1.3rem !important;
+        padding: 0.8rem 5%;
     }
     
 }
 
+@media (max-width: 950px) {
+    .footer{
+        padding: 0.5rem 4rem !important;
+    }
+    .footer p {
+        font-size: 0.7rem !important;
+        margin: 0.4rem 0 !important; 
+    }
+    .navbar {
+        margin-right: 2rem !important;
+    }
+}
+
+@media (max-width: 890px) {
+    .footer{
+        padding: 0.5rem 4rem !important;
+    }
+    .footer p {
+        font-size: 0.7rem !important;
+        margin: 0.4rem 0 !important; 
+    }
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 812px) {
+    .footer p {
+        font-size: 0.7rem !important;
+        margin: 0.4rem 1rem !important; 
+    }
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer p {
+        font-size: 0.7rem !important;
+        margin: 0.4rem 1rem !important; 
+    }
+    .navbar {
+        margin-right: auto !important;
+    }
+}
+
 @media (max-width: 768px) {
     .main-content {
-        flex-direction: column;
-        margin-left: 4rem ;   
+        flex-direction: column; 
     }
     .left-content h3 {
         font-size: 2rem;
@@ -54,12 +96,15 @@
     .button-cv {
         font-size: 1rem;
     }
-    .right-content {
-        margin-left: 4rem;
-    }
     .developer {
         width: 70vw !important;
-        padding-right: 4rem !important;
+        margin-right: 0 !important;
+    }
+    .footer {
+        justify-content: center !important;
+    }
+    .footer p {
+        font-size: 0.7rem !important;
     }
 }
 
@@ -69,7 +114,14 @@
     }
     .developer {
         width: 90vw !important;
-    }   
+    }
+    .footer{
+        padding: 0.5rem 4rem !important;
+    }
+    .footer p {
+        font-size: 0.7rem !important;
+        margin: 0.4rem 0 !important; 
+    }
 }
 
 

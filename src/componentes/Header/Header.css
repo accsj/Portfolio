@@ -102,7 +102,6 @@ span {
     }
     .portfolio {
         font-size: 3rem;
-        margin-left: 3.5rem;
     }
     .tabsright a {
         font-size: 1.9rem;
@@ -113,6 +112,12 @@ span {
     }
     .text-footer > p{
         font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        display: none !important;
     }
 }
 
@@ -135,11 +140,8 @@ span {
         margin: 3rem 0;
     }
     .navbar {
-        display: block;
-        margin-right: 1rem;
-    }
-    .showMenu {
-        display: block;
+        display: block !important;
+        margin-right: 1rem !important;
     }
 }
 
@@ -150,6 +152,10 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+    .navbar {
+        display: block;
+        margin-right: 2rem !important;
+    }
 }
 
 @media (max-width:450px) {
@@ -158,14 +164,6 @@ span {
     }
 }
 
-@media (max-width:365px) {
-    .footer {
-        flex-direction: column-reverse;
-    }
-    .footer p {
-        text-align: center;
-        margin-top: 2rem;
-    }
-}
+
 
 
