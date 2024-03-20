@@ -12,12 +12,12 @@
         margin-right: 8rem !important;
         margin-bottom: 13rem !important;
     }
-    .button {
+    .button-about {
         padding-top: 1rem;
         padding-bottom: 3rem !important;
     }
-    .button-cv {
-        font-size: 1.5rem;
+    .button-cv-about {
+        font-size: 1.5rem !important;
     }
     .footer-about {
         padding: 1.3rem 3% !important;
@@ -47,11 +47,12 @@
         padding-bottom: 1.2rem !important;
     }
     .section-right-about > p {
-        font-size: 1.5rem !important;
+        font-size: 1.8rem !important;
     }
-    .button {
+    .button-about {
         display: flex !important;
         justify-content: center !important;
+        align-items: center;
     }
     .developer-about {
         width:37vw !important;
@@ -92,6 +93,9 @@
 @media (max-width: 600px) {
     .section-right-about {
         margin-left: 4rem;
+    }
+    .section-right-about > p {
+        font-size: 2rem;
     }
     .developer-about {
         width: 50vw !important;

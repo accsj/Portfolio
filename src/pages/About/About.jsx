@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../componentes/Header/Header';
 import DeveloperAbout from '../../componentes/AboutComponentes/DeveloperAbout/DevAbout';
 import SectionRight from '../../componentes/AboutComponentes/SectionRight/SectionRight';
-import ButtonCV from '../../componentes/ButtonCV/ButtonCV';
+import ButtonCVAbout from '../../componentes/AboutComponentes/ButtonCVAbout/ButtonCVAbout';
 import FooterAbout from '../../componentes/Footer/FooterAbout/FooterAbout';
 
 
@@ -16,7 +16,7 @@ function AboutPage() {
             <DeveloperAbout />
             <aside>
                 <SectionRight />
-                <ButtonCV />
+                <ButtonCVAbout />
             </aside>
         </main>
         <FooterAbout />

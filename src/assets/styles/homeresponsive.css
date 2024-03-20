@@ -19,6 +19,7 @@
     .button {
         display: flex !important;
         justify-content: left !important;
+        align-items: left !important;
     }
     .button-cv {
         font-size: 1.5rem !important;
