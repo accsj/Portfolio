@@ -50,9 +50,8 @@
         font-size: 1.5rem !important;
     }
     .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: flex !important;
+        justify-content: center !important;
     }
     .developer-about {
         width:37vw !important;
