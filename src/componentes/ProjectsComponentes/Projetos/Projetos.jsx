@@ -51,7 +51,7 @@ export default function Projetos() {
                             <i id='logoreact' class='bx bxl-react'></i>
                             <i id="logojs" class='bx bxl-javascript'></i>
                         </p>
-                        <ButtonGit  link='https://github.com/accsj/Website-Portfolio' text='Acesse o repositório'/>
+                        <ButtonGit  link='https://github.com/accsj/Portfolio' text='Acesse o repositório'/>
                     </div>
                 </div>
             </div>
