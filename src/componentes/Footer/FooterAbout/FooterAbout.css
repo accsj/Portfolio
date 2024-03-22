@@ -6,6 +6,7 @@
     padding: 0.8rem 9%;
     background-color: var(--bg-color);
     color: var(--text-color);
+    cursor: default;
 }
 
 .footer-about p {
