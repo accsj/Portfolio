@@ -22,9 +22,11 @@ export default function Projetos() {
                         <h3>Haikyuu</h3>
                         <p>Em um dos meus projetos pessoais, optei por unir os 3 maiores amores da minha vida: programação, vôlei e animes. Fiz um site baseado no anime de vôlei Japônes, com telas de login/register/recovery, também com abas laterais contando as histórias de cada personagem. </p>
                         <h3>Tecnologias</h3>
-                        <p> <i id="logohtml" class='bx bxl-html5' ></i>
-                            <i id="logocss" class='bx bxl-css3' ></i>
+                        <p>
+                            <i id='logoreact' class='bx bxl-react'></i>
                             <i id="logojs" class='bx bxl-javascript'></i>
+                            <i id='logonodejs' class='bx bxl-nodejs'></i>
+                            <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                         </p>
                         <ButtonGit  link='https://github.com/accsj/Haikyuu' text='Acesse o repositório'/>
                 </div>

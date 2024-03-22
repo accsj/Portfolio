@@ -75,6 +75,21 @@
     color: rgb(0, 166, 255);
 }
 
+#logonodejs {
+    background:linear-gradient(-120deg, #215732, #6cc24a, #44883e, #333333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.6rem;
+}
+
+#logopostgresql {
+    background:linear-gradient(120deg, #585858, #029aff, #585858);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #logoreact {
     color: rgb(97, 219, 251);
     font-size: 2.5rem;
@@ -110,6 +125,12 @@
     .cards > p {
         font-size: 2rem !important;
     }
+    #logopython {
+        font-size: 4rem;
+    }
+    #logonodejs {
+        font-size: 4rem;
+    }
     #logohtml {
         font-size: 4rem;
     }
@@ -119,8 +140,11 @@
     #logojs {
         font-size: 4rem;
     }
+    #logopostgresql {
+        font-size: 4rem;
+    }
     #logoreact {
-        font-size: 4rem !important;
+        font-size: 4rem;
     }
 }
 
