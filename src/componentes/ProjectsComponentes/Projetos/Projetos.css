@@ -63,16 +63,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-#logohtml {
-    color: orangered;
-}
-
 #logojs {
     color: yellow;
-}
-
-#logocss {
-    color: rgb(0, 166, 255);
 }
 
 #logonodejs {
@@ -129,12 +121,6 @@
         font-size: 4rem;
     }
     #logonodejs {
-        font-size: 4rem;
-    }
-    #logohtml {
-        font-size: 4rem;
-    }
-    #logocss {
         font-size: 4rem;
     }
     #logojs {

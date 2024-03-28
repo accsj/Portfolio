@@ -19,24 +19,25 @@ export default function Projetos() {
                 </div>
                 <div className="cards">
                     <i class='bx bxl-github'></i>
-                        <h3>Haikyuu</h3>
-                        <p>Em um dos meus projetos pessoais, optei por unir os 3 maiores amores da minha vida: programação, vôlei e animes. Fiz um site baseado no anime de vôlei Japônes, com telas de login/register/recovery, também com abas laterais contando as histórias de cada personagem. </p>
-                        <h3>Tecnologias</h3>
-                        <p>
-                            <i id='logoreact' class='bx bxl-react'></i>
-                            <i id="logojs" class='bx bxl-javascript'></i>
-                            <i id='logonodejs' class='bx bxl-nodejs'></i>
-                            <i id='logopostgresql' class='bx bxl-postgresql' ></i>
-                        </p>
-                        <ButtonGit  link='https://github.com/accsj/Haikyuu' text='Acesse o repositório'/>
+                    <h3>Haikyuu</h3>
+                    <p>É um projeto ainda em desenvolvimento mas com grande parte já feita, tem validação com banco de dados usando Node.js e Postgresql, verificação e validação de jwt tanto no client side quanto no server side, envio de email com tempo de expiração de token para redefinição de senha e muito mais, é um projeto que eu uso muito para estudo e testes.</p>
+                    <h3>Tecnologias</h3>
+                    <p>
+                        <i id='logoreact' class='bx bxl-react'></i>
+                        <i id="logojs" class='bx bxl-javascript'></i>
+                        <i id='logonodejs' class='bx bxl-nodejs'></i>
+                        <i id='logopostgresql' class='bx bxl-postgresql' ></i>
+                    </p>
+                    <ButtonGit  link='https://github.com/accsj/Haikyuu' text='Acesse o repositório'/>
                 </div>
                 <div className="cards">
                     <i class='bx bxl-github'></i>
-                    <h3>Login Screen</h3>
-                    <p>Uma de minhas primeiras telas feitas com as linguagens de marcação onde pude aprender a organizar arquivos, estruturar de forma semântica o HTML/CSS e deixar de forma responsiva.</p>
+                    <h3>Spotify Clone</h3>
+                    <p>Este projeto ainda em desenvolvimento consiste em ser um clone do Spotify, com telas de login e registro, verificação de usuário com banco de dados e validação de jwt, focando sempre na segurança da aplicação.</p>
                     <h3>Tecnologias</h3>
-                    <p> <i id="logohtml" class='bx bxl-html5' ></i>
-                        <i id="logocss" class='bx bxl-css3' ></i>
+                    <p> 
+                        <i id='logoreact' class='bx bxl-react'></i>
+                        <i id="logojs" class='bx bxl-javascript'></i>
                     </p>
                     <ButtonGit  link='https://github.com/accsj/Login-Screen-Responsive' text='Acesse o repositório'/>
                 </div>
