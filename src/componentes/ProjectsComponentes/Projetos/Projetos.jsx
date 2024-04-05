@@ -9,13 +9,17 @@ export default function Projetos() {
             <div className="cards-container">
                 <div className="cards">
                     <i class='bx bxl-github'></i>
-                        <h3>Sistema de Login</h3>
-                        <p>Estudo de banco de dados com Python, fechando as conexões de forma segura, validando usuário/email/senha, e buscando informações em tempo real com o database.</p>
+                        <h3>Lista de Tarefas</h3>
+                        <p>Este projeto consiste em ser uma lista de tarefas, onde cada usuário terá suas tarefas adicionadas de forma individual. O projeto tem validação de dados, validação de token, banco de dados relacional e outras funcionalidades.
+                        </p>
                         <h3>Tecnologias</h3>
                         <p> 
-                            <i id="logopython" class='bx bxl-python'></i>
+                            <i id='logoreact' class='bx bxl-react'></i>
+                            <i id="logojs" class='bx bxl-javascript'></i>
+                            <i id='logonodejs' class='bx bxl-nodejs'></i>
+                            <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                         </p>
-                        <ButtonGit link='https://github.com/accsj/Login-database' text='Acesse o repositório' />
+                        <ButtonGit link='https://github.com/accsj/Lista-de-Tarefas' text='Acesse o repositório' />
                 </div>
                 <div className="cards">
                     <i class='bx bxl-github'></i>
@@ -40,6 +44,22 @@ export default function Projetos() {
                         <i id="logojs" class='bx bxl-javascript'></i>
                     </p>
                     <ButtonGit  link='https://github.com/accsj/Login-Screen-Responsive' text='Acesse o repositório'/>
+                </div>
+            </div>
+            <div className="cards-container">
+                <div className="cardsite">
+                    <div className="cards">
+                        <i class='bx bxl-github'></i>
+                        <h3>Agenda de Contatos</h3>
+                        <p>É um projeto que usei para entender como funciona a estrutura de pastas dentro do Django, não consegui fazer algo muito elaborado e também tive dificuldades de certa forma com o deploy pois usei o React para fazer o front-end e posteriormente gerando uma build para usar na minha aplicação Django, optei por usar o banco de dados que normalmente costumo utilizar que é o Postgresql, em aplicações futuras acredito já ter uma experiência e noção de como funciona uma aplicação Django. No meu Github contém tanto o projeto com React quanto o projeto com o Django.</p>
+                        <h3>Tecnologias</h3>
+                        <p> 
+                            <i id='logoreact' class='bx bxl-react'></i>
+                            <i id="logopython" class='bx bxl-python'></i>
+                            <i id='logopostgresql' class='bx bxl-postgresql' ></i>
+                        </p>
+                        <ButtonGit  link='https://github.com/accsj/Contatos-Django' text='Acesse o repositório'/>
+                    </div>
                 </div>
             </div>
             <div className="cards-container">

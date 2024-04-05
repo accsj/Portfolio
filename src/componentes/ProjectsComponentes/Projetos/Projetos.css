@@ -6,6 +6,7 @@
 .projects > h1 {
     font-size: 2.7rem;
     padding-top: 7rem;
+    cursor: default;
 }
 
 .cards-container {
