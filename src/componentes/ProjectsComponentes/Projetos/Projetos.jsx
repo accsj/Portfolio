@@ -42,6 +42,8 @@ export default function Projetos() {
                     <p> 
                         <i id='logoreact' class='bx bxl-react'></i>
                         <i id="logojs" class='bx bxl-javascript'></i>
+                        <i id='logonodejs' class='bx bxl-nodejs'></i>
+                        <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                     </p>
                     <ButtonGit  link='https://github.com/accsj/Login-Screen-Responsive' text='Acesse o repositório'/>
                 </div>
