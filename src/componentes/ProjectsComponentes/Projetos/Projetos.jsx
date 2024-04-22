@@ -1,8 +1,6 @@
 import '../Projetos/Projetos.css';
 import ButtonGit from '../ButtonGIT/ButtonGit';
 
-
-
 export default function Projetos() {
     return (
         <>
@@ -46,6 +44,20 @@ export default function Projetos() {
                         <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                     </p>
                     <ButtonGit  link='https://github.com/accsj/Login-Screen-Responsive' text='Acesse o repositório'/>
+                </div>
+            </div>
+            <div className="cards-container">
+                <div className="cardsite">
+                    <div className="cards">
+                        <i class='bx bxl-github'></i>
+                        <h3>Weather App</h3>
+                        <p>Uma aplicação simples para consulta e previsão de tempo, optei por consumir a api da OpenWeather para conseguir todas as informações das quais precisava, acredito que foi uma das aplicações mais fáceis que fiz até agora, e foi ótima pra rever alguns conceitos do javascript puro.</p>
+                        <h3>Tecnologias</h3>
+                        <p> 
+                            <i id='logoreact' class='bx bxl-react'></i>
+                        </p>
+                        <ButtonGit  link='https://github.com/accsj/weather-app' text='Acesse o repositório'/>
+                    </div>
                 </div>
             </div>
             <div className="cards-container">
