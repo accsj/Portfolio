@@ -1,0 +1,27 @@
+.deploy_link_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.or {
+    margin-bottom: 0 !important;
+}
+
+.deploy_link {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0 !important;
+}
+
+.btn_deploy {
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn_deploy:hover {
+    text-decoration: underline;
+    color: var(--main-color);
+}

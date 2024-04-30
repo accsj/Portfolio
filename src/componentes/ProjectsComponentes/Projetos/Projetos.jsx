@@ -1,5 +1,6 @@
 import '../Projetos/Projetos.css';
 import ButtonGit from '../ButtonGIT/ButtonGit';
+import ButtonDeploy from '../ButtonDeploy/ButtonDeploy';
 
 export default function Projetos() {
     return (
@@ -18,6 +19,7 @@ export default function Projetos() {
                             <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                         </p>
                         <ButtonGit link='https://github.com/accsj/Lista-de-Tarefas' text='Acesse o repositório' />
+                        <ButtonDeploy  link='https://tasklistaccsj.vercel.app/' />
                 </div>
                 <div className="cards">
                     <i class='bx bxl-github'></i>
@@ -31,6 +33,7 @@ export default function Projetos() {
                         <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                     </p>
                     <ButtonGit  link='https://github.com/accsj/Haikyuu' text='Acesse o repositório'/>
+                    <ButtonDeploy  link='https://haikyuu.vercel.app/' />
                 </div>
                 <div className="cards">
                     <i class='bx bxl-github'></i>
@@ -43,7 +46,8 @@ export default function Projetos() {
                         <i id='logonodejs' class='bx bxl-nodejs'></i>
                         <i id='logopostgresql' class='bx bxl-postgresql' ></i>
                     </p>
-                    <ButtonGit  link='https://github.com/accsj/Login-Screen-Responsive' text='Acesse o repositório'/>
+                    <ButtonGit  link='https://github.com/accsj/Spotify-Clone' text='Acesse o repositório'/>
+                    <ButtonDeploy  link='https://spotify-clone-accsj.vercel.app/' />
                 </div>
             </div>
             <div className="cards-container">
@@ -57,6 +61,7 @@ export default function Projetos() {
                             <i id='logoreact' class='bx bxl-react'></i>
                         </p>
                         <ButtonGit  link='https://github.com/accsj/weather-app' text='Acesse o repositório'/>
+                        <ButtonDeploy  link='https://weather-accsj.vercel.app/' />
                     </div>
                 </div>
             </div>

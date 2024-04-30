@@ -19,7 +19,7 @@
 
 .cards-container .cards {
     flex: 1 1 30rem;
-    padding: 3rem 2rem 4rem;
+    padding: 3rem 2rem 2rem;
     background: var(--second-bg-color);
     border-radius: 2rem;
     text-align: center;
