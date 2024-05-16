@@ -25,3 +25,9 @@
     text-decoration: underline;
     color: var(--main-color);
 }
+
+@media (max-width: 1200px) {
+    .deploy_link_container p {
+        font-size: 1.5rem !important;
+    }
+}
